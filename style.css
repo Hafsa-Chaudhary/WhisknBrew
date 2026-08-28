@@ -372,7 +372,7 @@ img {
     .tabs a {
         display: inline-block;
         margin: 3px 4px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .welcome {
@@ -518,7 +518,7 @@ img {
     }
 
     .tabs a {
-        font-size: 25px;
+        font-size: 20px;
         margin: 3px 2px;
     }
 
