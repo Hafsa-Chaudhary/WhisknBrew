@@ -1,0 +1,633 @@
+body {
+    background-color: #17120F;
+    margin: 0;
+    padding-top:60px;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color: #17120F;
+    padding: 15px 0;
+}
+
+.tabs a:hover {
+    color: #deaf79;
+}
+
+.abbreviation {
+    color: #f8c68d;
+    font-size: xx-large;
+}
+
+.tabs a {
+    margin-right: 20px;
+    color: #fae1c2;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #9e6c45;
+}
+
+/*Footer*/
+
+.footer {
+    color: #fdd6a7;
+    text-align: center;
+}
+
+/*Main Page*/
+
+.welcome {
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    color: #caa06f;
+}
+
+.speciality {
+    text-align: center;
+    font-size: 30px;
+    color: #fbe1c2;
+}
+
+img {
+    margin-top: 20px;
+    float: left;
+    height: 400px;
+    width: 500px;
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+.explanation {
+    margin-top: 140px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: x-large;
+    color: #fbcd95;
+}
+
+.about{
+    text-align: center;
+    margin-top:70px;
+}
+.About {
+    margin-top: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    clear: both;
+    color: #e4b37a;
+    margin-bottom: 5px;
+}
+
+.behind{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #c2996b;
+    margin-left: 20px;
+}
+.story {
+    margin-top: 5px;
+    text-align: center;
+    color: #cfb296;
+    font-size: x-large;
+}
+
+.portfolio{
+    text-decoration: none;
+    color: #b17e58;
+}
+
+/*Hot Baverages-Savory Snacks*/
+
+.foodcategory {
+    text-align: center;
+    color: #e8a26c;
+    font-size: 60px;
+}
+
+.foodspeciality {
+    text-align: center;
+    color: #e8c19a;
+    font-size: 30px;
+}
+
+.productcard {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    border-radius: 30px;
+    width: 350px;
+    height: 450px;
+    background-color: #5e4230;
+    transition: transform 0.3s ease;
+}
+
+.productcard:hover {
+    transform: translateY(-5px);
+}
+
+.productcard img {
+    display: block;
+    width: 320px;
+    height: 310px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.productname {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #000;
+}
+
+.productprice {
+    margin-left: 20px;
+    margin-top: 3px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #000;
+}
+
+.productorderbtn {
+    margin-top: 3px;
+    margin-left: 18px;
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #855836;
+    color: #feebd5;
+    font-size: large;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.productorderbtn:hover {
+    color: #17120F;
+}
+
+/* Responsive Design */
+/* Tablets */
+
+@media (max-width: 1300px) {
+    body {
+        padding-top: 115px;
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+
+    .abbreviation {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .tabs {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabs a {
+        display: inline-block;
+        margin: 3px 5px;
+        font-size: 17px;
+    }
+
+    .welcome {
+        font-size: 50px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .speciality {
+        font-size: 26px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    body > img {
+        float: none;
+        display: block;
+        width: 80%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px auto 0 auto;
+    }
+
+    .explanation {
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about {
+        margin-top: 60px;
+    }
+
+    .About {
+        font-size: 38px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .behind {
+        font-size: 27px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .story {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .foodcategory {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+
+    .foodspeciality {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .productcard {
+        display:block;
+        width: 320px;
+        height: 430px;
+        margin: 30px auto;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
+    }
+
+    .productcard:hover {
+        transform: translateY(-5px);
+    }
+
+    .productcard img {
+        display: block;
+        width: 290px;
+        height: 290px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+
+    .productname {
+        font-size: 27px;
+    }
+
+    .productprice {
+        font-size: 22px;
+    }
+
+    .productorderbtn {
+        font-size: 17px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding-top: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8px 15px;
+        box-sizing: border-box;
+    }
+
+    .abbreviation {
+        width: 100%;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .tabs {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tabs a {
+        display: inline-block;
+        margin: 3px 4px;
+        font-size: 25px;
+    }
+
+    .welcome {
+        font-size: 36px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .speciality {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    body > img {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px auto 0 auto;
+    }
+
+    .explanation {
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .about {
+        margin-top: 50px;
+    }
+
+    .About {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .behind {
+        font-size: 23px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .story {
+        font-size: 19px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .foodcategory {
+        width: 100%;
+        font-size: 36px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .foodspeciality {
+        width: 100%;
+        font-size: 19px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .productcard {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        height:400px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
+    }
+
+    .productcard:hover {
+        transform: translateY(-5px);
+    }
+
+    .productcard img {
+        display: block;
+        width: calc(100% - 30px);
+        height: 300px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+
+    .productname {
+        margin-left: 20px;
+        font-size: 26px;
+    }
+
+    .productprice {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .productorderbtn {
+        font-size: 16px;
+    }
+}
+
+
+/* Small Mobile Phones */
+
+@media (max-width: 400px) {
+
+    body {
+        padding-top: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .abbreviation {
+        font-size: 24px;
+    }
+
+    .tabs a {
+        font-size: 25px;
+        margin: 3px 2px;
+    }
+
+    .welcome {
+        font-size: 31px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .speciality {
+        font-size: 18px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    body > img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px auto 0 auto;
+    }
+
+    .explanation {
+        font-size: 17px;
+        margin-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about {
+        margin-top: 45px;
+    }
+
+    .About {
+        font-size: 29px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .behind {
+        font-size: 21px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .story {
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .foodcategory {
+        width: 100%;
+        font-size: 31px;
+        padding-top: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .foodspeciality {
+        width: 100%;
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .productcard {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        height:400px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        transition: transform 0.3s ease;
+    }
+
+    .productcard:hover {
+        transform: translateY(-5px);
+    }
+
+    .productcard img {
+        display: block;
+        width: calc(100% - 30px);
+        height: 280px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+
+    .productname {
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .productprice {
+        margin-left: 20px;
+        font-size: 19px;
+    }
+
+    .productorderbtn {
+        font-size: 15px;
+    }
+}
