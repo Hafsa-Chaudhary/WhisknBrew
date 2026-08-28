@@ -106,11 +106,6 @@ img {
     font-size: x-large;
 }
 
-.portfolio{
-    text-decoration: none;
-    color: #b17e58;
-}
-
 /*Hot Baverages-Savory Snacks*/
 
 .foodcategory {
@@ -456,7 +451,7 @@ img {
         display: block;
         width: 100%;
         max-width: 350px;
-        height:410px;
+        height:420px;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -593,7 +588,7 @@ img {
         display: block;
         width: 100%;
         max-width: 350px;
-        height:410px;
+        height:420px;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
